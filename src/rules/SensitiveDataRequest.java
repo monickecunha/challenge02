@@ -7,7 +7,20 @@ import java.util.List;
 
 public class SensitiveDataRequest implements Rule{
     private static final String RULE_NAME = "Pedido de dados sensíveis";
-    private static final List<String> SENSITIVE_TERMS = List.of("CPF", "Senha", "Código de verificação", "Número do cartão", "Token", "CVV");
+    private static final List<String> SENSITIVE_TERMS = List.of(
+            "cpf",
+            "senha",
+            "codigo",
+            "instale",
+            "codigo de verificacao",
+            "numero do cartao",
+            "token",
+            "cvv",
+            "pix",
+            "documento",
+            "taxa",
+            "premio"
+    );
     private static final int POINTS_PER_TERM = 30;
 
     @Override

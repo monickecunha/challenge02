@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="682aa1a3-3a1e-446e-a0f6-6fa6d91a1093" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/challenge02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/challenge02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules/HasLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/HasLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules/SensitiveDataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/SensitiveDataRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules/SuspiciousTerms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/SuspiciousTerms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/FraudAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/FraudAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/RulesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RulesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DetectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DetectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestCase.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HE97niRrqsvhl86DuZGOMXSfcc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.DetectorTest.executor": "Run",
+    "JUnit.DetectorTest.testMensagem10_PhishingCorreios.executor": "Run",
+    "JUnit.DetectorTest.testMensagem1_ConsultaOdontologica.executor": "Run",
+    "JUnit.DetectorTest.testMensagem2_AvisoUrgenteBloqueio.executor": "Run",
+    "JUnit.DetectorTest.testMensagem3_GolpeDoPix.executor": "Run",
+    "JUnit.DetectorTest.testMensagem4_CompraAprovada.executor": "Run",
+    "JUnit.DetectorTest.testMensagem5_FalsoPremio.executor": "Run",
+    "JUnit.DetectorTest.testMensagem6_AvisoFaculdade.executor": "Run",
+    "JUnit.DetectorTest.testMensagem7_AvisoRH.executor": "Run",
+    "JUnit.DetectorTest.testMensagem8_AvisoLegitimoBanco.executor": "Run",
+    "JUnit.DetectorTest.testMensagem9_FalsoSuporteTecnico.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feature/service-and-tests",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/monicke/IdeaProjects/challenge02",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.DetectorTest.testMensagem10_PhishingCorreios">
+    <configuration name="DetectorTest.testMensagem10_PhishingCorreios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
+      <option name="METHOD_NAME" value="testMensagem10_PhishingCorreios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectorTest.testMensagem6_AvisoFaculdade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
+      <option name="METHOD_NAME" value="testMensagem6_AvisoFaculdade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectorTest.testMensagem7_AvisoRH" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
+      <option name="METHOD_NAME" value="testMensagem7_AvisoRH" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectorTest.testMensagem8_AvisoLegitimoBanco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
+      <option name="METHOD_NAME" value="testMensagem8_AvisoLegitimoBanco" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectorTest.testMensagem9_FalsoSuporteTecnico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
+      <option name="METHOD_NAME" value="testMensagem9_FalsoSuporteTecnico" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DetectorTest.testMensagem10_PhishingCorreios" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem9_FalsoSuporteTecnico" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem8_AvisoLegitimoBanco" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem7_AvisoRH" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem6_AvisoFaculdade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="682aa1a3-3a1e-446e-a0f6-6fa6d91a1093" name="Changes" comment="" />
+      <created>1785422195755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785422195755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
