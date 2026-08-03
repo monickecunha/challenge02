@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="682aa1a3-3a1e-446e-a0f6-6fa6d91a1093" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/challenge02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/challenge02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rules/HasLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/HasLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rules/SensitiveDataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/SensitiveDataRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rules/SuspiciousTerms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/SuspiciousTerms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/FraudAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/FraudAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/RulesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RulesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/DetectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DetectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,65 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000002805571" />
+      <entry key="S5" value="1.0001525866950896" />
+      <entry key="S10" value="1.0136728188044524" />
+      <entry key="S30" value="1.4225246871473414" />
+      <entry key="S60" value="2.21935718608505" />
+      <entry key="M2" value="3.213056499474291" />
+      <entry key="M5" value="4.581931773574844" />
+      <entry key="M10" value="6.581999341964762" />
+      <entry key="M15" value="9.779184269098428" />
+      <entry key="M30" value="20.630776910045174" />
+      <entry key="H1" value="34.46852785131931" />
+      <entry key="H2" value="45.85959309946703" />
+      <entry key="H4" value="53.2239127906658" />
+      <entry key="D1" value="60.427944093589296" />
+      <entry key="W1" value="61.77258008168917" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.79349983564155E-17" />
+      <entry key="MS500" value="4.474456272828863E-4" />
+      <entry key="S2" value="0.14544040233120625" />
+      <entry key="S5" value="0.4626091739917533" />
+      <entry key="S10" value="0.7018192488101169" />
+      <entry key="S30" value="1.6229829288396742" />
+      <entry key="S60" value="2.9557747114121873" />
+      <entry key="M2" value="4.490927830563379" />
+      <entry key="M5" value="6.1931147374201245" />
+      <entry key="M10" value="7.713360135749855" />
+      <entry key="M15" value="9.659716668004998" />
+      <entry key="M30" value="15.606537221989276" />
+      <entry key="H1" value="22.682511317406288" />
+      <entry key="H2" value="28.28636192805466" />
+      <entry key="H4" value="31.834261847823853" />
+      <entry key="D1" value="35.25831955420569" />
+      <entry key="W1" value="35.89282159490678" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.7418155016661755E-12" />
+      <entry key="MS500" value="0.005961454297307428" />
+      <entry key="S2" value="0.38317511429580725" />
+      <entry key="S5" value="1.0068270343873547" />
+      <entry key="S10" value="1.443479413693308" />
+      <entry key="S30" value="2.8963129217567296" />
+      <entry key="S60" value="5.049786995273064" />
+      <entry key="M2" value="7.603322567584143" />
+      <entry key="M5" value="10.710100401505096" />
+      <entry key="M10" value="14.247886116581938" />
+      <entry key="M15" value="19.39453034198113" />
+      <entry key="M30" value="36.19674029594323" />
+      <entry key="H1" value="57.12022252878095" />
+      <entry key="H2" value="74.12645255108677" />
+      <entry key="H4" value="85.04713854478746" />
+      <entry key="D1" value="95.6842186912302" />
+      <entry key="W1" value="97.66510411126355" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
@@ -51,20 +105,36 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/service-and-tests",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "feature/main-implementation",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/monicke/IdeaProjects/challenge02",
+    "last_opened_file_path": "C:/Users/SQC1/Desktop/repo-local/challenge02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DetectorTest.testMensagem10_PhishingCorreios">
-    <configuration name="DetectorTest.testMensagem10_PhishingCorreios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="challenge02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectorTest.testMensagem1_ConsultaOdontologica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge02" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +144,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
-      <option name="METHOD_NAME" value="testMensagem10_PhishingCorreios" />
+      <option name="METHOD_NAME" value="testMensagem1_ConsultaOdontologica" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectorTest.testMensagem6_AvisoFaculdade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetectorTest.testMensagem2_AvisoUrgenteBloqueio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge02" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +160,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
-      <option name="METHOD_NAME" value="testMensagem6_AvisoFaculdade" />
+      <option name="METHOD_NAME" value="testMensagem2_AvisoUrgenteBloqueio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectorTest.testMensagem7_AvisoRH" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetectorTest.testMensagem3_GolpeDoPix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge02" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +176,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
-      <option name="METHOD_NAME" value="testMensagem7_AvisoRH" />
+      <option name="METHOD_NAME" value="testMensagem3_GolpeDoPix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectorTest.testMensagem8_AvisoLegitimoBanco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetectorTest.testMensagem4_CompraAprovada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge02" />
       <extension name="coverage">
         <pattern>
@@ -122,23 +192,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
-      <option name="METHOD_NAME" value="testMensagem8_AvisoLegitimoBanco" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DetectorTest.testMensagem9_FalsoSuporteTecnico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="challenge02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.DetectorTest" />
-      <option name="METHOD_NAME" value="testMensagem9_FalsoSuporteTecnico" />
+      <option name="METHOD_NAME" value="testMensagem4_CompraAprovada" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,19 +200,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DetectorTest.testMensagem10_PhishingCorreios" />
-        <item itemvalue="JUnit.DetectorTest.testMensagem9_FalsoSuporteTecnico" />
-        <item itemvalue="JUnit.DetectorTest.testMensagem8_AvisoLegitimoBanco" />
-        <item itemvalue="JUnit.DetectorTest.testMensagem7_AvisoRH" />
-        <item itemvalue="JUnit.DetectorTest.testMensagem6_AvisoFaculdade" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem2_AvisoUrgenteBloqueio" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem4_CompraAprovada" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem3_GolpeDoPix" />
+        <item itemvalue="JUnit.DetectorTest.testMensagem1_ConsultaOdontologica" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>
@@ -174,5 +228,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

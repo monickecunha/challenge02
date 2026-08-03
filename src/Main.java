@@ -1,37 +1,47 @@
+
 import model.AnalysisResult;
 import model.Message;
-import model.RiskLevel;
 import model.RuleResult;
+import service.FraudAnalyzer;
+import service.RulesConfig;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("--- TESTANDO AS CLASSES DO MODELO ---");
 
-        Message mensagem = new Message("URGENTE: Sua CÔNTA será blôqueada amanhã!");
-        System.out.println("Texto Original: " + mensagem.getOriginalText());
-        System.out.println("Texto Normalizado: " + mensagem.getNormalizedText());
-        System.out.println("Contém 'conta'? " + mensagem.contains("conta")); // Deve retornar true
+        System.out.println("Mensagens de teste");
 
-        System.out.println("\n--- SIMULANDO REGRAS ---");
+        FraudAnalyzer fraudAnalyzer = new FraudAnalyzer();
 
-        RuleResult regraUrgencia = new RuleResult("Regra de Urgência", 40, true, "Palavra URGENTE encontrada");
-        RuleResult regraBloqueio = new RuleResult("Regra de Bloqueio", 35, true, "Ameaça de bloqueio detectada");
-        RuleResult regraLinkSeguro = RuleResult.notFlagged("Regra de Link"); // Regra que não achou nada
+        Scanner scanner = new Scanner(System.in);
 
-        List<RuleResult> resultados = new ArrayList<>();
-        resultados.add(regraUrgencia);
-        resultados.add(regraBloqueio);
-        resultados.add(regraLinkSeguro);
+        System.out.println("Digite a mensagem que será verificada:");
 
-        AnalysisResult analiseFinal = new AnalysisResult(resultados);
+        String textoDigitado = "";
 
-        System.out.println("\n--- RESULTADO FINAL ---");
-        System.out.println("Pontuação Total: " + analiseFinal.getTotalScore());
+        while (scanner.hasNextLine()) {
+            String linha = scanner.nextLine();
 
-        RiskLevel nivelDeRisco = analiseFinal.getRiskLevel();
-        System.out.println("Nível de Risco: " + nivelDeRisco.getLabel() + " (Esperado Alto ou Crítico)");
+            if (linha.isEmpty()) {
+                break;
+            }
+
+            textoDigitado += linha + "\n";
+        }
+
+        Message message = new Message(textoDigitado);
+        AnalysisResult result = fraudAnalyzer.analyze(message);
+
+        System.out.println("\nResultado da Análise");
+        System.out.println("Risco: " + result.getRiskLevel());
+        System.out.println("Pontuação Total: " + result.getTotalScore());
+
+        for (RuleResult rule : result.getRuleResults()) {
+            if (rule.isFlagged()) {
+                System.out.println("Motivo: " + rule.getReason());
+            }
+        }
+
     }
 }

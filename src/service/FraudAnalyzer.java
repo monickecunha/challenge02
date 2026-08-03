@@ -24,4 +24,12 @@ public class FraudAnalyzer {
 
         return new AnalysisResult(results);
     }
+
+    public List<Rule> getRules() {
+        return rules;
+    }
+
+    public void setRules(List<Rule> rules) {
+        this.rules = rules;
+    }
 }
